@@ -1,18 +1,15 @@
 {
   "dependencies": {
-    "discord-xp": "^1.1.16",
     "discord.js": "^13.3.0",
-    "discord.js-leveling": "^5.4.0",
-    "dotenv": "^10.0.0",
-    "mongoose": "^6.0.12"
+    "dotenv": "^10.0.0"
   },
   "name": "bebou-bot",
   "version": "1.0.0",
   "engines": {
-    "node": "12.11.1"
-  },
+    "node": "16.13.0"},
   "description": "a simple bot by Altorru",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

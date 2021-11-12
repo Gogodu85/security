@@ -10,22 +10,6 @@ require("dotenv").config();
 const prefix = "?";
 
 Client.on("ready", () => {
-    const guild = Client.guilds.cache.get("908689442829647932");
-    setInterval(function(){
-        var memberCount = guild.members.cache.filter(member => !member.user.bot).size;  
-        var memberCountChannel = Client.channels.cache.get("908726441921884170");
-        memberCountChannel.setName(`MSTH à ${memberCount} membres!`);
-        console.log(`MSTH à ${memberCount} membres!`);
-        Client.user.setPresence({
-            status: "online",
-            game: {
-                name: `MSTH à ${memberCount} membres!`,
-                type: "WATCHING"
-            }
-        });
-            }, 100);
-
-
     console.log("bot opérationnel");
 });
 

@@ -10,6 +10,11 @@ require("dotenv").config();
 const prefix = "?";
 
 Client.on("ready", () => {
+    Client.user.setStatus('available')
+    Client.user.setActivity("Louis Moustache", {
+        type: "WATCHING",
+      });
+
     console.log("bot opérationnel");
 });
 
